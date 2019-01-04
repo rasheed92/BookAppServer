@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const Category = require('../models/category');
-
+const Admin = require('../middleware/Admin');
 
 
 //this router used to get all
